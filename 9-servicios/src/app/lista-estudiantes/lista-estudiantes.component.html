@@ -1,0 +1,8 @@
+<section>
+    <h2>Lista de estudiantes</h2>
+    <ul>
+        @for(estudiante of estudiantes; track $index){
+            <p>{{estudiante.id}}{{estudiante.nombre}}</p>
+        }
+    </ul>
+</section>

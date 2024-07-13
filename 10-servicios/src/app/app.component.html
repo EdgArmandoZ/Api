@@ -1,0 +1,27 @@
+<section>
+  <h2>Operaciones basicas</h2>
+  <label for="">Numero 1:</label>
+  <input type="number" [(ngModel)]="num1" name="num1"><br><br>
+  <label for="">Numero 2:</label>
+  <input type="number" [(ngModel)]="num2" name="num2">
+ 
+</section><br>
+
+
+
+
+
+<section>
+  <button (click)="calcularSuma()" >Sumar</button>
+  <button (click)="calcularDivision()" >Division</button>
+  <button (click)="calcularMultiplicacion()">Multiplicacion</button>
+  <button (click)="calcularResta()" >resta</button>
+</section>
+<section>
+  <p>resultado: {{resultado}}</p>
+</section>
+
+
+
+
+
